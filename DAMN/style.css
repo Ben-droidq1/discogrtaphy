@@ -1,0 +1,186 @@
+body{
+      background-color:rgb(37, 32, 32);
+      color: white;
+      margin: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 5px;
+      text-align: center;
+      display: grid;
+      place-items: center;
+      background-image:url(kendrick\ lamar.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+      text-shadow: 4px 4px 15px;
+
+}
+.section{
+    background-color: rgb(3, 3, 3);
+    width: fit-content;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px;
+    transition: transform o.3s ease;
+
+    
+}
+.section:hover{
+    transform: translateY(-15px);
+}
+
+#pop{
+    font-variant: small-caps;
+}
+
+#zez {
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(253, 250, 250);
+    border-radius: 10px;
+    width: 272px;
+}
+.pic {
+    background-color: black;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px ;
+    overflow: hidden;
+    animation : zeze linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+}
+.pic img{
+    width: 100%;
+    display: block;
+    border-radius: 12px 12px 0 0;
+}
+.trees{
+    
+    width: auto;
+    padding: 10px;
+    font-weight: bolder;
+    animation: zze  linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    
+
+}
+
+@keyframes zeze {
+    from{ opacity: 0;
+        transform: translateX(-100px);
+       }
+     to{ opacity: 1;
+        transform: translateX(0px);
+
+     }
+
+}
+    
+ @keyframes zze{
+    from{ opacity: 0;
+          transform: translateX(-100px);
+         }
+       to{ opacity: 1;
+          transform: translateX(0px);
+
+       }
+ }
+ .dot{
+    background-color: black;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px;
+    animation:vibe linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+ }
+ #run{
+    
+    
+    border-radius: 10px;
+    padding: 10px;
+    width: 290px;
+    animation: vibes  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+ }
+  @keyframes vibe{
+    from{ opacity: 0;
+        transform: translateX(-100px);
+       }
+     to{ opacity: 1;
+        transform: translateX(0px);
+
+     }
+  }
+  @keyframes vibes{
+    from{ opacity: 0;
+        transform: translateX(-100px);
+       }
+     to{ opacity: 1;
+        transform: translateX(0px);
+
+     }
+    }
+    .yah{
+        background-color: black;
+        width: 316px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px;
+        animation: vibes  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    
+    .acc{
+        border-radius: 10px;
+        
+        animation: vibes  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    .gyah{
+        background-color: black;
+        overflow: hidden;
+        width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px;
+        animation: vibes  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    .pat {
+       
+        margin: 20px;
+        border-radius: 10px;
+        animation: vibes  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+
+    }
+    .gnx{
+        background-color: black;
+        width: 300px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px;
+        animation: vibes  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+    .dic{
+        
+        padding: 10px;
+        border-radius: 10px;
+        animation: vibes  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+
+    }
